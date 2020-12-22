@@ -13,7 +13,7 @@ public class JenkinsApplication {
 
 	@GetMapping
 	public String applicationStatus() {
-		return "Application is up & running!!";
+		return "2 Application is up & running!!";
 	}
 	
 	public static void main(String[] args) {
@@ -22,6 +22,6 @@ public class JenkinsApplication {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "Test application successful!!";
+		return " 2 Test successful!!";
 	}
 }
